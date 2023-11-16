@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
     
+
 </head>
 <body>
 
@@ -22,16 +23,16 @@
 
     <section class="teclado">
         <button onclick="tocaSomPom()" class="tecla tecla_pom">Pom</button>
-        <button onclick="tocaSomClap()" class="tecla tecla_clap">Clap</button>
-        <button onclick="tocaSomTic()" class="tecla tecla_tim">Tim</button>
+        <button onclick="alert('Clap')" class="tecla tecla_clap">Clap</button>
+        <button onclick="alert('Tim')" class="tecla tecla_tim">Tim</button>
 
-        <button onclick="tocaSomPuff()" class="tecla tecla_puff">Puff</button>
-        <button onclick="tocaSomSplash()" class="tecla tecla_splash">Splash</button>
-        <button onclick="tocaSomToin()" class="tecla tecla_toim">Toim</button>
+        <button onclick="alert('Puff')" class="tecla tecla_puff">Puff</button>
+        <button onclick="alert('splash')" class="tecla tecla_splash">Splash</button>
+        <button onclick="alert('Toim')" class="tecla tecla_toim">Toim</button>
 
-        <button onclick="tocaSomPsh()" class="tecla tecla_psh">Psh</button>
-        <button onclick="tocaSomTic()" class="tecla tecla_tic">Tic</button>
-        <button onclick="tocaSomTom()" class="tecla tecla_tom">Tom</button>
+        <button onclick="alert('Psh')" class="tecla tecla_psh">Psh</button>
+        <button onclick="alert('Tic')" class="tecla tecla_tic">Tic</button>
+        <button onclick="alert('Tom')" class="tecla tecla_tom">Tom</button>
     </section>
 
     <audio controls src="sounds/keyq.wav" id="som_tecla_pom"></audio>
@@ -43,7 +44,6 @@
     <audio controls src="sounds/keyz.wav" id="som_tecla_psh"></audio>
     <audio controls src="sounds/keyx.wav" id="som_tecla_tic"></audio>
     <audio controls src="sounds/keyc.wav" id="som_tecla_tom"></audio>
-    <script src="main.js"></script>
-
+    <script src="main.js" ></script>
 </body>
 </html>
